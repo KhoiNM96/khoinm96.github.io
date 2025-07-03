@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Isekai Mythril Mine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6c3dd7;
+      --accent: #f1c40f;
+      --bg: #f9f3e9;
+      --text: #333;
+    }
+    body {
+      font-family: 'Fredoka', sans-serif;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: linear-gradient(to right, #8e44ad, #6c3dd7);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 120px;
+      border-radius: 16px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 1rem 0 0.5rem;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .container {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .feature h3 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+    .screenshots {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      margin: 2rem 0;
+    }
+    .screenshots img {
+      border-radius: 12px;
+      height: 320px;
+      object-fit: cover;
+    }
+    .download {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .download a {
+      background-color: var(--accent);
+      padding: 1rem 2rem;
+      color: black;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+      padding: 2rem 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+      .screenshots img {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="icon.jpg" alt="Game Icon" />
+  <h1>Isekai Mythril Mine</h1>
+  <p class="tagline">Mine Mythril, Unlock Magic – Build your fantasy mining empire!</p>
+</header>
+
+<main class="container">
+
+  <section class="screenshots">
+    <img src="screenshot1.jpg" alt="Gameplay 1" />
+    <img src="screenshot2.jpg" alt="Gameplay 2" />
+    <img src="screenshot3.jpg" alt="Gameplay 3" />
+    <img src="screenshot4.jpg" alt="Gameplay 4" />
+    <img src="screenshot5.jpg" alt="Gameplay 5" />
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>🧙‍♂️ Chibi Fantasy Heroes</h3>
+      <p>Hire and level up adorable miners, mages, and warriors in a colorful fantasy world.</p>
+    </div>
+    <div class="feature">
+      <h3>⛏️ Idle Mining</h3>
+      <p>Mine mythril 24/7—even when you're offline. Stack resources and grow your empire effortlessly.</p>
+    </div>
+  </section>
+
+  <div class="download">
+    <a href="https://play.google.com/store/apps/details?id=com.nmksinobi.isekaimythrilmine" target="_blank">
+      📲 Download on Google Play
+    </a>
+  </div>
+
+</main>
+
+<footer>
+  © 2025 Isekai Mythril Mine by NMK Studio. All rights reserved.
+</footer>
+
+</body>
+</html>
